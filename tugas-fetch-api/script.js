@@ -45,7 +45,7 @@ const options = {
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">${val.original_title}</h5>
-              <p class="card-text">User Score : ${val.vote_average}<br>${val.overview}</p> 
+              <p class="card-text">User Score : ${val.vote_average}<br>Release Date : ${val.release_date}<br>Sinopsis : <br>${val.overview}</p> 
             </div>
           </div>
         </div>
